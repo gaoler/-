@@ -1,0 +1,225 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\My.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Retrieve.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 图像检索系统"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "图像检索系统 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2011",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_IMAGETRIEVAL_DIALOG DIALOGEX 0, 0, 579, 367
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "图像检索系统"
+FONT 10, "楷体_GB2312", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "退出",IDCANCEL,440,115,83,25
+    PUSHBUTTON      "输入待检索图像",IDC_OPEN,35,115,80,23
+    CONTROL         "",IDC_VIEW,"Static",SS_BLACKFRAME | SS_SUNKEN,32,32,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    PUSHBUTTON      "选择检索库路径",IDC_PATH,134,52,96,49
+    CONTROL         "",IDC_STATIC1,"Static",SS_BLACKFRAME | SS_NOTIFY | SS_SUNKEN | WS_GROUP,31,161,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC6,"Static",SS_BLACKFRAME | SS_SUNKEN,32,263,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC2,"Static",SS_BLACKFRAME | SS_SUNKEN,139,161,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC3,"Static",SS_BLACKFRAME | SS_SUNKEN,247,161,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC4,"Static",SS_BLACKFRAME | SS_SUNKEN,355,161,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC7,"Static",SS_BLACKFRAME | SS_SUNKEN,140,263,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC8,"Static",SS_BLACKFRAME | SS_SUNKEN,247,263,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC5,"Static",SS_BLACKFRAME | SS_NOTIFY | SS_SUNKEN,463,161,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC9,"Static",SS_BLACKFRAME | SS_SUNKEN,355,263,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_STATIC10,"Static",SS_BLACKFRAME | SS_SUNKEN,463,263,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "",IDC_VIEW1,"Static",SS_BLACKFRAME | SS_SUNKEN,439,28,86,77,WS_EX_DLGMODALFRAME | WS_EX_ACCEPTFILES | WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    PUSHBUTTON      "开始检索",IDC_START,246,115,83,26
+    COMBOBOX        IDC_COMBO1,306,45,58,60,CBS_DROPDOWNLIST | CBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "检索方式选择",IDC_STATIC,245,30,78,8
+    GROUPBOX        "检索结果",IDC_STATIC,19,142,544,218
+    CONTROL         "基于颜色特征",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON,245,45,61,10
+    CONTROL         "基于形状特征（形状不变矩）",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,245,60,113,10
+    CONTROL         "基于颜色和形状综合特征",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,245,75,98,10
+    LTEXT           "颜色：",IDC_STATIC,255,90,25,8
+    LTEXT           "形状：",IDC_STATIC,315,90,25,8
+    LTEXT           "%",IDC_STATIC,298,90,8,8
+    LTEXT           "%",IDC_STATIC,358,90,8,8
+    EDITTEXT        IDC_EDIT2,275,88,20,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,335,88,20,12,ES_AUTOHSCROLL
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "FileDescription", "imagetrieval Microsoft 基础类应用程序"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "图像检索系统"
+            VALUE "LegalCopyright", "版权所有 (C) 2011"
+            VALUE "OriginalFilename", "图像检索系统.EXE"
+            VALUE "ProductName", "图像检索系统 应用程序"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_IMAGETRIEVAL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 572
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 360
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 图像检索系统(&A)..."
+END
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\My.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
